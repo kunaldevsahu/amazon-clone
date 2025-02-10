@@ -229,3 +229,67 @@ footer{
     padding: 10px;
     gap: 10px;
 }
+
+/* RESPONSIVE DESIGN FOR MOBILE */
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-search {
+        width: 100%;
+        margin-top: 5px;
+    }
+
+    .panel {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+        gap: 5px;
+    }
+
+    .shop-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box {
+        width: 95%;
+    }
+
+    .foot-panel2 {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .nav-search {
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+    }
+
+    .search-select,
+    .search-input,
+    .search-icon {
+        width: 100%;
+        height: 35px;
+    }
+
+    .panel-ops {
+        flex-direction: column;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .box {
+        width: 100%;
+    }
+
+    .foot-panel3 {
+        flex-direction: column;
+        text-align: center;
+        gap: 5px;
+    }
+}
